@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+        }
+
+        header > h1{
+            text-align: center;
+            text-decoration: underline;
+            width: 300px;
+            margin: 20px auto 20px auto;
+            background-color: rgb(137, 157, 177);
+            padding: 10px;
+        }
+
+        nav{
+            background-color: lightcyan;
+            padding: 3px 3px 3px 15px;
+            box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.411);
+        }
+
+        nav > a{
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        nav >a:hover{
+            text-decoration: underline;
+            color: rgb(100, 17, 17);
+        }
+
+
+        main{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.493);
+        }
+
+        section > article{
+            background-color: rgb(151, 149, 149);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        aside{
+            background-color: rgb(185, 185, 185);
+            font-style: italic;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        footer > P{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teste de site</h1>
+        <nav>
+            <a href="#">Animes</a>
+            <a href="#">Mangás</a>
+            <a href="#">Top 10</a>
+        </nav>
+    </header>
+    <main>
+        <section id="anime1">
+            <article>
+                <h2>Shingeki no Kyojin</h2>
+                <p>É ambientado em um mundo onde a humanidade vive dentro de cidades cercadas por três enormes muralhas que os protegem dos gigantescos humanóides devoradores de humanos chamados de Titãs; a história segue Eren Yeager, que jura exterminar os Titãs após um Titã causar a destruição de sua cidade natal e a morte de sua mãe.</p>
+                <aside>
+                    Autor: Hajime Isayama
+                </aside>
+            </article>
+        </section>
+        <section id="anime2">
+            <article>
+                <h2>Fullmetal Alchemist: Brotherhood</h2>
+                <p>Depois de perderem sua mãe, Alphonse e Edward Elric tentam trazê-la de volta usando uma técnica de alquimia proíbida. Contudo, o princípio básico da alquimia é a 'troca equivalente', e tentar ressucitar alguém custa muito alto. Ed perde sua perna, e Al perde seu corpo</p>
+                <aside>
+                    <p>Autora: Hiromu Arakawa</p>
+                </aside>
+            </article>
+        </section>
+        <section id="anime3">
+            <article>
+                <h2>Naruto</h2>
+                <p>A série gira em torno das aventuras vividas por Naruto Uzumaki, um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o quinto Hokage, o maior guerreiro e governante da vila.</p>
+                <aside>
+                    <p>Autor: Masashi Kishimoto</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Henrique</p>
+    </footer>
+</body>
+</html>
