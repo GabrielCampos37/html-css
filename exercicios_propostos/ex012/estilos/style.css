@@ -10,8 +10,18 @@
     font-size: 1em;
 }
 
-p {
-    line-height: 100px;
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    line-height: 200%;
     padding: 30px;
     font-family: 'Sriracha', cursive;
 }
@@ -34,7 +44,8 @@ header > h1 {
 
 header > p {
     padding: 0px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 1.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,10 +60,14 @@ section.imagem {
     background: black center center no-repeat fixed;
     background-size: cover;
     color: white;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 section#segundo {
     background-image: url(../imagens/background001.jpg);
+    
 }
 
 section#quarto {
@@ -60,12 +75,21 @@ section#quarto {
 }
 
 section p {
-    width: 670px;
     font-size: 3.5vw;
 }
 
 section#segundo p {
-    background-color: #021401;
+    display: inline-block;
+    background-color: #0000007a;
+    max-width: 587px;
+    padding: 5px 3px 5px 5px;
+}
+
+section#quarto p {
+    display: inline-block;
+    background-color: #00000071;
+    max-width: 600px;
+    padding: 5px 3px 5px 3px;
 }
 
 footer {
@@ -79,5 +103,4 @@ footer {
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    line-height: 0px;
 }
